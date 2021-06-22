@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #ff9090;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
